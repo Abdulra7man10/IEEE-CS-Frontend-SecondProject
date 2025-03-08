@@ -53,12 +53,7 @@ border-radius: 4px;
 background-color: transparent;
 }
 
-/* .subscribe button {
-padding: 10px;
-border: none;
-cursor: pointer;
-border-radius: 0 5px 5px 0;
-} */
+
 
 .download {
 display: flex;
@@ -90,5 +85,10 @@ opacity: 0.6;
 color: #fff;
 border-top: 1px solid #fff;
 padding-top: 16px;
+}
+@media (max-width:375px ){
+    .footer-section .subscribe {
+        margin-bottom: 50px;
+    }
 }
 
