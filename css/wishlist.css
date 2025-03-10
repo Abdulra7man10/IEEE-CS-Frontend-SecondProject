@@ -424,7 +424,46 @@ border-top: 1px solid #fff;
 padding-top: 16px;
 }
 
-
+  
+  /* Tablet - بين 600px و 992px */
+  @media (max-width: 992px) {
+    .firstsection-wishlist div,
+    .secoundsection-wishlist div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    figure {
+      width: 45%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Mobile - أقل من 600px */
+  @media (max-width: 600px) {
+    .firstsection-wishlist div,
+    .secoundsection-wishlist div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    figure {
+      width: 90%;
+      text-align: center;
+    }
+  
+    .search-and-Icons-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .search-and-Icons-nav input {
+      width: 100%;
+    }
+  }
+  
 
   
 

@@ -399,5 +399,25 @@ color: #fff;
 border-top: 1px solid #fff;
 padding-top: 16px;
 }
-    
- 
+
+/* الأسلوب الافتراضي لجميع الأجهزة */
+body {
+  
+    font-size: 16px;
+}
+
+/* تغيير النمط للشاشات التي عرضها أقل من 768px (مثل الهواتف) */
+@media screen and (max-width: 768px) {
+    body {
+       
+        font-size: 14px;
+    }
+}
+
+/* تغيير النمط للشاشات العريضة (أكثر من 1200px) */
+@media screen and (min-width: 1200px) {
+    body {
+
+        font-size: 18px;
+    }
+}
